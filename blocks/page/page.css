@@ -1,0 +1,28 @@
+@font-face {
+  font-family: Inter;
+  src: url('../../vendor/Inter/Inter-V.ttf');
+}
+
+.page {
+  background-color: #2A2C2F;
+  font-family: 'Inter', Arial, sans-serif;
+  min-width: 1280px;
+}
+
+@media screen and (max-width: 1279px) {
+  .page {
+
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .page {
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page {
+    
+  }
+}
