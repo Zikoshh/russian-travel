@@ -1,0 +1,19 @@
+.page__place {
+  margin-bottom: 80px;
+}
+
+.page__place:last-child {
+  margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .page__place {
+    margin-bottom: 73px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page__place {
+    margin-bottom: 50px;
+  }
+}
