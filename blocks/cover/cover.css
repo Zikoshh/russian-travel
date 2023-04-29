@@ -1,8 +1,9 @@
 .cover {
   background: linear-gradient(rgba(42, 44, 47, .3), rgba(42, 44, 47, .3)),  url("../../images/cover-trains.jpg");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  outline: 1px solid aqua;
 }
 
 .cover:hover {

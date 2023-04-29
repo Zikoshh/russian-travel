@@ -1,0 +1,14 @@
+.menu {
+  display: grid;
+  grid-template-columns: repeat(5, min-content);
+  column-gap: 18px;
+}
+
+@media screen and (max-width: 767px) {
+  .menu {
+    grid-template-columns: min-content;
+    grid-template-rows: repeat(5, min-content);
+    column-gap: 0;
+    row-gap: 32px;
+  }
+}
