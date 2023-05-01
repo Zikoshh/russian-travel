@@ -3,7 +3,7 @@
   font-size: 14px;
   line-height: 16px;
   margin: 0;
-  justify-self: end
+  justify-self: end;
 }
 
 @media screen and (max-width: 767px) {
